@@ -1,0 +1,919 @@
+/* general styling */
+a{
+    text-decoration: none;
+}
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+.fs-13{
+    font-size: 13px;
+}
+.annoucement-text span{
+    font-weight: 700;
+}
+.radius{
+    border-radius: 19px;
+}
+.fs-17{
+    font-size: 17px;
+}
+/* Mobile dp */
+.mymobdp{
+  display: none;
+}
+.myfootdp{
+  display: block !important;
+}
+/* .mydeskdp{
+display: flex !important;} */
+/* Mobile dp */
+@font-face {
+    font-family:Canela-Black-Trial;
+     src: url(../fonts/Canela-Black-Trial.otf);
+  }
+  .canela{
+    font-family:Canela-Black-Trial;
+  }
+  .fs-20{
+    font-size: 20px;
+  }
+  .fs-45{
+    font-size: 45px;
+  }
+  .fs-18{
+    font-size: 18px;
+  }
+  .olderTextHEading p span{
+    font-weight: 600;
+}
+.olderTextList ul {
+    padding: 0px;
+    width: 70%;
+    border-radius: 10px;
+}
+.olderTextList ul li{
+    list-style-type: none;
+    line-height: 26px;
+
+}
+.fs-14{
+font-size: 14px;
+}
+.paddingList{
+    padding:25px 19px 25px 19px !important;
+}
+.smootheButton button{
+    border-radius: 36px;
+}
+
+/* Review Section */
+.clientreviewSection {
+    border: 1px solid #C7E7DC;
+    border-radius: 8px;
+    width: 76%;
+    box-shadow: 0px 5px 15px 0px #B0B0B040;
+}
+.fs-11{
+    font-size: 11px;
+    font-style: italic;
+}
+.font-11{
+ font-size:11px;
+}
+.clientSection{
+    width: 73%;
+}
+.revvidbtn{
+    background: #00000059;
+    border-radius: 84.19px;
+    bottom: 12%;
+    left: 14%;
+    padding: 0.7rem;
+}
+.revvidbtntext{
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.6480257511138916px;
+box-shadow: 0px 8.64px 8.64px 0px #00000040;
+}
+.revvidlikebtn{
+    border-radius: 58.85px;
+    background: #2E2D2FCC;
+    top: 5%;
+    left: 3%;
+    padding: 0.5rem 1rem;
+}
+.revvidbtnliketext{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.353309690952301px;
+}
+.table-color{
+    background-color: #CBF1E4;
+}
+.revsechead{
+font-family: Canela Web;
+font-size: 36px;
+font-weight: 500;
+line-height: 55px;
+letter-spacing: 0.01em;
+}
+
+
+/* Vids-Section */
+.vidsecbg{
+    margin-top: 6rem;
+}
+.vidswatchbtn{
+    background: #00000059;
+    border-radius: 84.19px;
+    left: 11%;
+    top: 41%;
+    padding: 0.7rem;
+}
+.vidsubsbtn{
+    border-radius: 58.85px;
+    background: #2E2D2FCC;
+    top: 5%;
+    left: 8%;
+    padding: 0.5rem 1.5rem;
+}
+.vidbtnviewstext{
+font-size: 13.48px;
+font-weight: 600;
+line-height: 20.22px;
+letter-spacing: 0.2826087176799774px;
+}
+.revbyvidstext{
+font-size: 14px;
+line-height: 29.65px;
+letter-spacing: 0.01em;
+}
+.revbyvidsname{
+font-size: 17.52px;
+font-weight: 600;
+line-height: 32.35px;
+letter-spacing: 0.01em;
+}
+.revbyvidsresigtext{
+    font-size: 17.52px;
+    line-height: 29.65px;
+    letter-spacing: 0.01em;
+}
+
+
+
+/* Satisfaction Section */
+.satissecbg{
+    margin-top: 5rem;
+}
+.satisfacbox{
+    padding: 27.6px 20.97px 27.6px 20.97px;
+    border-radius: 8.83px;
+    background: #FAF8F8;
+}
+.satisboxcon{
+    margin-top: 3rem;
+}
+.satistext{
+font-size: 18px;
+font-weight: 300;
+line-height: 30.96px;
+letter-spacing: 0.01em;
+color: #2E2E2E;
+}
+.satishead{
+font-size: 14.35px;
+font-weight: 600;
+line-height: 26.49px;
+letter-spacing: 0.01em;
+}
+.satistext{
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.01em;
+}
+
+/* Many Rows */
+.manyrowhead{
+font-size: 36px;
+font-weight: 500;
+line-height: 55px;
+letter-spacing: 0.01em;
+}
+.manyrowtextnorm{
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.01em;
+}
+.manyrowbold{
+    font-weight: 600;
+}
+.imagetext{
+font-size: 11px;
+font-style: italic;
+line-height: 16px;
+color: #00000080;
+}
+.scientificbox{
+  border-radius: 93.8px;
+  /* padding: 18.76px 37.52px 18.76px 37.52px; */
+  background: #C7E7DC;
+  width: 35%;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+/* Fifthrow */
+.mycardtext{
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  }
+    .usercardname {
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 16px;
+    }
+    .mycardhead {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 26px;
+      letter-spacing: 0.01em;
+    }
+    .countryname {
+      font-size: 11px;
+      font-weight: 300;
+      line-height: 16px;
+      color: #000000cc;
+    }
+    .verifytext {
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 16px;
+      color: #008763;
+    }
+    .mycardpara {
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 16px;
+    }
+    .mycardbody {
+      border: 1px solid #c7e7dc;
+      box-shadow: 0px 5px 15px 0px #b0b0b040;
+      border-radius: 0px 0px 8px 8px;
+    }
+    .fifthrowsepad{
+      padding: 0 3.8rem;
+    }
+
+    /* Sixth Row */
+.sixthlistbox{
+  padding: 25px 19px 25px 19px;
+  border-radius: 8px;
+  background: #FAF8F8;
+}
+.sixthtickmar{
+  margin-right: 10px;
+}
+.sixthlimar{
+  margin-bottom: 20px;
+}
+/* Third Row */
+.thirdrowmt{
+  margin-top: 3.75rem;
+}
+.thirdrowcolspt{
+  padding: 28px 0;
+}
+.thirdrowheadboxmb{
+  margin-bottom: 30px;
+}
+
+/* Fourth ROw */
+.fourthrowheadmb{
+  margin-bottom: 24px;
+}
+.fourthcolpad{
+  padding-left: 60px;
+}
+
+/* Seventh Row */
+.seventhrowmb30{
+  margin-bottom: 30px;
+  }
+  .seventhlimb20{
+      margin-bottom: 20px;
+  }
+  /* Eight Row */
+.eightrowpt{
+  padding: 37.5px 0;
+  }
+
+  /* Tenth Row */
+
+.tenthrowheadmb46{
+  margin-bottom: 46px;
+}
+.tenthrowmainboxmb{
+  margin-bottom: 33px;
+}
+.tenthrowfirstcardhead{
+margin-bottom: 18.85px;
+}
+
+
+/* Usage Css */
+.usage-steps {
+ display: flex;
+ justify-content: space-around;
+}
+.step1 p {
+ font-size: 13px;
+}
+.step2 p {
+ font-size: 13px;
+}
+.step3 p {
+ font-size: 13px;
+}
+.step4 p {
+ font-size: 13px;
+}
+.step5 p {
+ font-size: 13px;
+}
+.try-it {
+  font-size: 36px;
+}
+.riskfree-days{
+   background-color: #F2F2F2;
+}
+.col-sm-12.col-md-6.col-lg-6.riskfree-trial.descriptiontry-it p {
+  font-size: 14px;
+  line-height: 26px;
+}
+.main-FAQS h3 {
+  font-size: 36px;
+}
+.heading h5 {
+  font-size: 13px;
+}
+.content-left p {
+  font-size: 13px;
+}
+table {
+ border-collapse: collapse;
+}
+
+
+th, td {
+ border-bottom: 1px solid #ccc;
+ padding: 8px;
+}
+
+.my_table {
+ width: 100%;
+}
+tbody, td, tfoot, th, thead, tr {
+ border-color: inherit;
+ border-style: solid;
+ border-width: 0;
+ text-align: center;
+ height: 60px;
+}
+td {
+ border-bottom: 1px solid  #EDE7DD;
+ font-size: 13px;
+}
+th {
+ border-bottom: 1px solid  #EDE7DD;
+ font-size: 16px;
+}
+.icon-pllaced{
+   border-bottom: none;
+}
+.main-FAQS{
+   margin-top: 50px;
+   font-family: 'Roboto';
+}
+.bi.bi-dash.dash-icon {
+    display: none;
+  }
+.accordion-items{
+   width: 100%;
+   margin: 0 auto;
+}
+.acoordion-title1 h5 {
+   font-size: 13px;
+   margin-bottom: 6px;
+ }
+ .acoordion-title1{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .acordian-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+.content-left a{
+   text-decoration: none;
+   color: black;
+}
+
+ 
+
+
+
+ .main-FAQS{
+   margin-top: 50px;
+   font-family: 'Roboto';
+}
+.accordion-items {
+   margin-bottom: 20px;
+   width: 100%;
+   margin: 0 auto;
+   padding-bottom: 0px;
+   padding-top: 0px;
+}
+
+.acoordion-title1 {
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 15px;
+   border-radius: 5px;
+}
+
+.acoordion-title1 h5 {
+   margin: 0;
+}
+
+.iconpart {
+   font-size: 1.5rem;
+}
+
+.acordian-content {
+   display: none;
+   padding: 10px;
+}
+
+.acordian-content p {
+   margin-bottom: 10px;
+}
+
+.acordian-content img {
+   max-width: 100%;
+   height: auto;
+}
+
+.accordion-items.active .acordian-content {
+   display: flex;
+}
+
+hr {
+   margin: 5px 0;
+   border: none;
+   border-top: 1px solid #ccc;
+}
+.content-left p {
+ font-size: 13px;
+}
+.last-safety {
+ color: #D41414;
+ text-align: left;
+ font-weight: bold;
+ font-size: 14px;
+}
+.text-center.steps-infusion {
+  font-size: 36px;
+  line-height: 55px;
+}
+.chart-table{
+ text-align: left;
+ font-weight: bold;
+ font-size: 14px;
+}
+.riskfree-daysmobile{
+  display: none;
+}
+.steps-folllow{
+ margin-top: 30px;
+ margin-bottom: 30px;
+ font-size: 13px;
+}
+.moneyback-img{
+   margin-bottom: 20px;
+ margin-top: 20px;
+}
+.fs-13 {
+    font-size: 13px;
+    color: black;
+  }
+  .mobile-vs{
+    display: none;
+  }
+  .offer-hcolor{
+    color: #008763;
+    font-weight: bold;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .review-img{
+    width: 100%;
+  }
+  .clientImg.ml-20.free {
+    margin-left: 64px;
+  }
+  .customer-review {
+    margin-top: 60px;
+  }
+  .step-follow {
+    margin-top: 80px;
+  }
+  .text-center.qures-top {
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+  .riskfree-days {
+    background-color: #F2F2F2;
+    padding: 60px 0px;
+    margin-top: 60px;
+  }
+  .customer-reviewmobile{
+    display: none;
+  }
+  .table-img {
+    margin-bottom: -25px;
+  }
+  .text-center.heading-choice {
+    font-size: 36px;
+    margin-bottom: 35px;
+  }
+  .text-center.description {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .viewslider-mobile {
+    display: none;
+  }
+  /* accordion css */
+  .bi.bi-dash{
+    display: none;
+  }
+  .iconpart.active .bi.bi-plus {
+      display: none;
+  }
+  
+  .iconpart.active .bi.bi-dash {
+      display: block;
+  }
+  .acordian-content.active{
+      display: block;
+  }
+/* Footer css */
+.footbg {
+  background: #000000;
+  padding: 5rem 7rem 1rem 7rem;
+}
+.footbrands {
+  padding: 0 5rem;
+  margin-bottom: 6rem;
+}
+.mainfootcontent {
+  padding: 5rem 0 1rem 0;
+}
+.queshead {
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.quesheadpara {
+  color: #ffffffcc;
+  font-size: 16px;
+  font-weight: 400;
+}
+.livechat {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+.footcontacticons {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.livechattext {
+  color: #ffffffcc;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footlastpart {
+  padding: 1.5rem 3rem 0.7rem;
+}
+.footlastdisc {
+  padding: 0 5rem;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.copyright {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.termsandprivacytext {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  letter-spacing: 0.20000000298023224px;
+  color: #ffffff;
+}
+
+/* Footer Css End */
+
+
+
+
+
+
+  /* responsive css*/
+  .announcement-mobile {
+    display: none;
+  }
+@media screen and (max-width: 480px) {
+    .usage-steps {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+/* .col-sm-12.col-md-6.col-lg-6 {
+  text-align: center;
+} */
+.steps-img{
+    width: 100%;
+}
+.announcement-desktop {
+    display: none;
+  }
+  .announcement-mobile {
+    display: block;
+  }
+  .col-sm-12.col-md-6.col-lg-6.mobile-view {
+    padding: 0px;
+  }
+  .padd-50 {
+    padding-block-start: 0px !important;
+    padding-block-end: 0px !important;
+  }
+  .fs-45 {
+    font-size: 34px;
+  }
+  .fs-20 {
+    font-size: 18px;
+  }
+  .olderTextList ul li {
+    list-style-type: none;
+    line-height: 22px;
+    font-size: 13px;
+  }
+  .smootheButton.mt-10 {
+    text-align: center;
+  }
+  .revsechead {
+    font-family: Canela Web;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    padding: 0px 68px;
+    text-align: inherit;
+  }
+  .margin-left {
+    margin-left: 0px !important;
+  }
+  .clientreviewSection {
+    border: 1px solid #C7E7DC;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0px 5px 15px 0px #B0B0B040;
+  }
+  .clientSection {
+    width: 100%;
+  }
+  .mobile-dp{
+    display: none;
+  }
+  .container-fluid.vidsecbg {
+    display: none;
+  }
+  .viewslider-mobile {
+    display: block;
+  }
+  .satisfacbox {
+    padding: 27.6px 20.97px 27.6px 20.97px;
+    border-radius: 8.83px;
+    background: #FAF8F8;
+    margin-bottom: 30px;
+  }
+  .manyrowhead {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    margin-bottom: 50px;
+  }
+  .text-center.heading-choice {
+    font-size: 28px;
+    margin-bottom: 35px;
+    text-align: left !important;
+    font-weight: bold;
+  }
+  .text-center.description {
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-align: left !important;
+  }
+  .mobile-vs {
+    display: block;
+    line-height: 28px;
+    font-size: 22px;
+  }
+  .main-FAQS h3 {
+    font-size: 28px;
+    padding: 0px 70px;
+  }
+  .customer-review{
+    display: block;
+  }
+  .customer-reviewmobile {
+    display: block;
+  }
+  .poppins.manyrowtextnorm span {
+    font-weight: bold;
+  }
+  .card-body {
+    padding: 0px;
+  }
+  .mobile-divider {
+    margin-bottom: 90px;
+  }
+  .manyrowhead.canela.poppins {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    margin-bottom: 60px;
+  }
+  .card-img-top {
+    margin-bottom: 30px;
+  }
+  .tropical-img {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .riskfree-days {
+    display: none;
+  }
+  .riskfree-daysmobile {
+    display: block;
+  }
+  .riskimg-mobile {
+    width: 100%;
+  }
+  .moneyback-img {
+    margin-bottom: 20px;
+    margin-top: -120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .col-sm-12.col-md-6.col-lg-6.riskfree-trial.descriptiontry-itmobile {
+    background-color: #F2F2F2;
+    margin-top: 150px;
+    padding: 40px 30px;
+  }
+  .try-it {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  /* Muneeb's Sections Css Responsive */
+  .mymobdp{
+    display: block;
+  }
+  .mydeskdp{
+    display: none !important;
+  }
+
+  /* Third Row */
+  .thirdrowmobp{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .myhr{
+    background: #D3D3D3;
+    height: 1.6px;
+  }
+
+  /* Fourth Row */
+  .scientificbox {
+    width: 60%;
+}
+.fourthcolpad {
+  padding-left: 0px;
+  padding-right: 0;
+}
+.fourthmanyrowhead {
+  margin-bottom: 16px;
+}
+.fourthmobimgbox{
+  margin-bottom: 40px;
+}
+
+/* Fifth Row  */
+.fifthrowmtmob{
+  margin-top: 0;
+}
+.fifthrowsepad {
+  padding: 10px;
+}
+.fifthcardwidth{
+  width: 100% !important;
+}
+.fifthcardmt{
+  margin-top: 40px;
+}
+.fifthrowcardimgmb{
+  margin-bottom: 0;
+}
+.fifthrowcardpad{
+  padding: 16px 16px 26px !important;
+}
+.fifthrowhrmar{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* Sixth Row */
+.sixthrowmobpad{
+  padding-top: 0;
+}
+
+/* Seventh Row */
+
+.manyrowseventhheadmob {
+  margin-bottom: 40px;
+}
+.sixthlistbox {
+  padding: 25px 16px 25px 16px;
+}
+.seventhmobrowpb{
+  padding-bottom: 0;
+}
+/* Ninth Row */
+.ninthroworder1{
+order: 1;
+}
+.ninthroworder2{
+  order: 2;
+  }
+  .ninthimgmobwidth{
+    width: 100%;
+  }
+  /* Tenth Row  */
+  .tenthrowmt{
+    margin-top: 45px;
+  }
+  .tenthmobhead{
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .tenthmobtext{
+    text-align: left;
+  }
+  .tenthmobimgmar{
+    margin-bottom: 20px !important;
+  }
+  .tenthcardheadmobmar{
+    margin-bottom: 20px;
+  }
+  .tenthcardheadmobpad{
+padding-right: 5px;
+  }
+  .myfootdp{
+    display: none !important;
+  }
+}

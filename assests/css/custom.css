@@ -1,0 +1,101 @@
+.padd-50{
+   padding-block-start: 50px;
+   padding-block-end: 50px;
+}
+.margin-20{
+    margin-top: 20px;
+}
+.padding50{
+    padding: 13px 50px;
+   
+}
+.mt-10{
+    margin-top: 30px ;
+}
+/* .ml-20{
+    margin-left: 20px;
+} */
+.padding-20{
+    padding: 20px 15px 15px 20px;
+}
+ .margin-left{
+    margin-left: 102px;
+ }
+ .satisfaction-img {
+    margin-right: 25px;
+  }
+  .row.happy-reviews {
+    margin-bottom: 80px;
+  }
+  .revsechead {
+    font-family: Canela Web;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+  .userrevname {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+  }
+  .revhead {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+  }
+  .countryname {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #000000cc;
+  }
+  .verifytext {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #008763;
+  }
+  .revpara {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  /* .mycardbody {
+    border: 1px solid #c7e7dc;
+    box-shadow: 0px 5px 15px 0px #b0b0b040;
+    border-radius: 0px 0px 8px 8px;
+  } */
+  .revpad1 {
+    padding-bottom: 2rem;
+  }
+  .revpad2 {
+    padding-bottom: 3rem;
+  }
+  .slick-initialized .slick-slide {
+    padding: 0 12px;
+  }
+  .slick-dots li button:before {
+    font-size: 13px;
+  }
+  .slick-dots {
+    bottom: 0px;
+  }
+  .mobile-slider{
+      width: 100%;
+  }
+  .customers-reviews {
+    margin-top: 30px;
+    font-size: 13px;
+    color: black;
+  }
+  .customers-name {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .customers-double{
+    font-size: 13px;
+    line-height: 20px;
+  }
